@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+# LexikJWT can catch the authentication request with that route
+api_login_check:
+    path: /api/login_check
